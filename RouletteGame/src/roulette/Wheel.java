@@ -21,6 +21,8 @@ public class Wheel {
 			RED, BLACK, RED, RED, BLACK, RED, BLACK, RED, BLACK, RED, BLACK,
 			RED, BLACK, BLACK, RED, BLACK, RED, BLACK, RED, BLACK, RED, GREEN };
 
+	public static final int MAX = OUR_SPOTS.length -1;
+
 	private int myNumSpins;
 	private int myValue;
 	private Random myRoller;
