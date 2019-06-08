@@ -9,7 +9,7 @@ import java.util.*;
  * @author Robert C. Duvall
  */
 public class ConsoleReader {
-	
+
 	// by default, read input from the user's console
 	private static Scanner in = new Scanner(new InputStreamReader(System.in));
 	

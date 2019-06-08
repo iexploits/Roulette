@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 import roulette.Gambler;
+import roulette.Wheel;
 
 /**
  * Test the Gambler class.
@@ -47,5 +48,7 @@ public class GamblerTest {
 		g.updateBankroll(13);
 		assertEquals(g.getBankroll(), 15);
 	}
+
+
 
 }

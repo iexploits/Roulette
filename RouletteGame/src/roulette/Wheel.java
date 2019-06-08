@@ -64,4 +64,5 @@ public class Wheel {
 		myNumSpins++;
 		myValue = myRoller.nextInt(OUR_SPOTS.length);
 	}
+
 }
