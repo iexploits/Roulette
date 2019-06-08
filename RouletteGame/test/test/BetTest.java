@@ -36,7 +36,7 @@ public class BetTest {
 
 	@Test
 	public void testThreeInRowBet() {
-		Bet b = new ThreeInRowBet();
+		Bet b = new NumInRowBet();
 		assertEquals(b.getDescription(), "Three In a Row");
 		assertEquals(b.getPayout(), 11);
 	}

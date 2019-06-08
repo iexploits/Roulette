@@ -3,16 +3,16 @@ package Betting;
 import Utils.ConsoleReader;
 import roulette.Wheel;
 
-public class ThreeInRowBet extends Bet{
+public class NumInRowBet extends Bet{
     private int myStart;
     private int myRange;
 
-    public ThreeInRowBet ()
+    public NumInRowBet()
     {
         this("Three in a Row", 11, 3);
     }
 
-    public ThreeInRowBet (String description, int payout, int range)
+    public NumInRowBet(String description, int payout, int range)
     {
         super(description, payout);
         myRange = range;

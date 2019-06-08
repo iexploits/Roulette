@@ -16,7 +16,9 @@ public class Game {
 	private Bet[] myPossibleBets = {
 			new RedBlackBet(),
 			new OddEvenBet(),
-			new ThreeInRowBet(),
+			new NumInRowBet("One In a Row", 35, 1),
+			new NumInRowBet("Two in a Row", 17 , 2),
+			new NumInRowBet(),	// Three In a Row , 11, 3
 			new HighLowBet()
 	};
 
